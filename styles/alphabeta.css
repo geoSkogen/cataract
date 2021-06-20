@@ -5,7 +5,7 @@
 .relshell {
   position: relative;
   height: 5px;
-  width: 100%;
+  width: 900px;
 }
 
 .flex-center {
@@ -62,19 +62,23 @@ body {
 
 .chambershell {
   position: absolute;
-  top: -300px;
+  top: -612px;
   width: 100%;
 }
 
 .chamber-wrapper {
-  height: 280px;
-  width: 100%;
+  width: 900px;
+  height: 555px;
+  margin: 0 1em 0 1em;
 }
 
 .chamber {
   margin-top: 2.25%;
-  height: 100%;
-  width:95%;
+  //height: 100%;
+  //width:95%;
+  height: 555px;
+  width: 855px;
+  //margin-bottom: 27.5px;
   z-index: 3000;
   background-color: #404040;
   background: url('../img/moon.jpg');
@@ -94,12 +98,12 @@ body {
 
 .tile {
   //border: 1px solid blue;
-  width: 32.5%;
+  width: 33.1%;
 }
 
 .glyph {
   //border: 1px solid blue;
-  width: 22.5%;
+  width: 24.29%;
   font-size: 36px;
   font-weight: 800;
   cursor: pointer;
@@ -109,7 +113,7 @@ body {
 
 .centertile {
   //border: 1px solid red;
-  width: 32.5%
+  width: 33.1%;
 }
 
 .centertile div.glyph {
@@ -117,11 +121,10 @@ body {
 }
 
 .stanza {
-  margin-top: 5px;
-  width: 100%;
-  height: 300px;
+  width: 900px;
+  height: 600px;
+  margin: 1em;
   padding: 0 0 0 0;
-  margin: 0 0 0 0;
   z-index: 1000;
 }
 
@@ -129,8 +132,8 @@ body {
   font-size:32px;
   z-index:8001;
   color:black;
-  top:18%;
-  left:0.4%;
+  top:290px;
+  left:16px;
   position:absolute
 }
 
@@ -138,8 +141,8 @@ body {
   font-size:32px;
   z-index:8001;
   color:black;
-  top:0.2%;
-  left:44.5%;
+  top:12px;
+  left:440px;
   position:absolute
 }
 
@@ -147,8 +150,8 @@ body {
   font-size:32px;
   z-index:8001;
   color:black;
-  top:18%;
-  right:0.4%;
+  top:290px;
+  left: 890px;
   position:absolute
 }
 
@@ -156,112 +159,9 @@ body {
   font-size:32px;
   z-index:8001;
   color:black;
-  top:34%;
-  left:44.5%;
+  top:590px;
+  left:440px;
   position:absolute
-}
-
-
-@media (min-width:401px) and (max-width:1199px) {
-  .stanza {
-    width: 450px;
-    height: 300px;
-    margin: 1em;
-  }
-
-  .chambershell {
-    top: -316px;
-  }
-
-  .chamber-wrapper {
-    width: 450px;
-    margin: 0 1em 0 1em;
-  }
-
-  .tile, .centertile {
-    width: 32.85%
-  }
-
-  .glyph {
-    //border: 1px solid blue;
-    width: 23.55%;
-  }
-
-  .portal-w {
-    font-size:36px;
-    top:39%;
-    left:1.5%;
-  }
-
-  .portal-n {
-    font-size:36px;
-    top:0.5%;
-    left:28%;
-  }
-
-  .portal-e {
-    font-size:36px;
-    top:39%;
-    left:55%;
-  }
-
-  .portal-s {
-    font-size:36px;
-    top:77%;
-    left:28%;
-  }
-
-}
-
-@media (min-width:1200px) {
-  .stanza {
-    width: 900px;
-    height: 600px;
-    margin: 1em;
-  }
-
-  .chambershell {
-    top: -612px;
-  }
-
-  .chamber-wrapper {
-    width: 900px;
-    height: 555px;
-    margin: 0 1em 0 1em;
-  }
-
-  .tile, .centertile {
-    width: 33.1%;
-  }
-
-  .glyph {
-    width: 24.29%;
-  }
-
-  .portal-w {
-    font-size:52px;
-    top:45%;
-    left:0.3%;
-  }
-
-  .portal-n {
-    font-size:52px;
-    top:0.25%;
-    left:33.5%;
-  }
-
-  .portal-e {
-    font-size:52px;
-    top:45%;
-    left:68.5%;
-  }
-
-  .portal-s {
-    font-size:52px;
-    top:86%;
-    left:33.5%;
-  }
-
 }
 
 .quadrant {
@@ -272,38 +172,3 @@ body {
   background-size: 450px 300px;
   background-blend-mode: color:
 }
-/*
-#nw-quad,#ne-quad {
-  margin-bottom: 4.25%;
-}
-
-#sw-quad,#se-quad {
-  margin-top: 4.25%;
-}
-
-#nw-quad,#sw-quad {
-  margin-right: 5%;
-}
-
-#ne-quad,#se-quad {
-  margin-left: 5%;
-}
-
-@media (min-width:400px) {
-  #nw-quad,#ne-quad {
-    margin-bottom: 3.33%;
-  }
-
-  #sw-quad,#se-quad {
-    margin-top: 3.33%;
-  }
-
-  #nw-quad,#sw-quad {
-    margin-right: 5%;
-  }
-
-  #ne-quad,#se-quad {
-    margin-left: 5%;
-  }
-}
-*/
