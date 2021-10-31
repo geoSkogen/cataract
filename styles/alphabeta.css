@@ -55,7 +55,7 @@ body {
   text-align: center;
   padding: 3em;
   color: white;
-  ////border: 2px solid white;
+  border: 2px solid white;
   cursor: pointer;
   list-style: none;
 }
@@ -80,7 +80,7 @@ body {
   width: 855px;
   //margin-bottom: 27.5px;
   z-index: 3000;
-  //background-color: #404040;
+  background-color: #404040;
   background: url('../img/scorched-earth.jpg');
   background-size: 900px 600px;
   background-blend-mode: saturation;
