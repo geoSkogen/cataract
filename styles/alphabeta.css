@@ -187,5 +187,6 @@ body {
 .nav {
   height: 36px;
   width: 36px;
-  border: 1px solid red;
+  padding: 2px;
+  //border: 1px solid red;
 }
