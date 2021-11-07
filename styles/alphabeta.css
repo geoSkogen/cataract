@@ -172,3 +172,20 @@ body {
   background-size: 450px 300px;
   background-blend-mode: color:
 }
+
+.console {
+  max-width: 900px;
+  min-width: 900px;
+  margin: 0 1em 0 -1em;
+  padding: 0 0 0 0;
+}
+
+#direction-nav {
+
+}
+
+.nav {
+  height: 36px;
+  width: 36px;
+  border: 1px solid red;
+}
