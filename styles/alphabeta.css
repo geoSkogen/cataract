@@ -8,10 +8,21 @@
   width: 900px;
 }
 
+.relshell-infinte {
+  position: relative;
+  height: 5px;
+}
+
 .flex-center {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 body {
@@ -69,7 +80,7 @@ body {
 .chamber-wrapper {
   width: 900px;
   height: 555px;
-  margin: 0 1em 0 1em;
+  margin: 0 1em 0 0;
 }
 
 .chamber {
@@ -132,8 +143,7 @@ body {
   font-size:32px;
   z-index:8001;
   color:black;
-  top:276px;
-  left:16px;
+  top: -356px;
   position:absolute
 }
 
@@ -141,8 +151,8 @@ body {
   font-size:32px;
   z-index:8001;
   color:black;
-  top:12px;
-  left:424px;
+  top: -616px;
+  left: 396px;
   position:absolute
 }
 
@@ -150,8 +160,8 @@ body {
   font-size:32px;
   z-index:8001;
   color:black;
-  top:276px;
-  left: 890px;
+  top: -356px;
+  left: 860px;
   position:absolute
 }
 
@@ -159,9 +169,9 @@ body {
   font-size:32px;
   z-index:8001;
   color:black;
-  top:590px;
-  left:424px;
-  position:absolute
+  top: -50px;
+  left: 396px;
+  position:absolute;
 }
 
 .quadrant {
@@ -174,14 +184,40 @@ body {
 }
 
 .console {
+
+}
+
+#full-console-wrapper {
+  width: 1700px;
+  border: 1px solid red;
+}
+
+#nav-console {
   max-width: 900px;
   min-width: 900px;
-  margin: 0 1em 0 -1em;
-  padding: 0 0 0 0;
+  margin: 0 1em 0 1em;
+  padding: 0.5em 0 0.5em 0;
+  background-color: #494949;
+}
+
+#right-option {
+  margin: 0 4em 0 0;
 }
 
 #direction-nav {
 
+}
+
+#encounter-console {
+  max-width: 420px;
+  min-width: 420px;
+  background-color: red;
+}
+
+#terrain-console {
+  max-width: 300px;
+  min-width: 300px;
+  background-color: yellow;
 }
 
 .nav {
@@ -189,4 +225,12 @@ body {
   width: 36px;
   padding: 2px;
   //border: 1px solid red;
+}
+
+#encounter-image {
+  position: absolute;
+  right: -450px;
+  top: -620px;
+  width: 420px;
+  height: 600px;
 }

@@ -11,23 +11,25 @@
   </title>
 </head>
 <body>
-
+  <div class="flex-row flex-center">
   <div class="stanza flex-row flex-center">
     <div class="quadrant" id="nw-quad">
-      <i class="fa fa-door-open portal-w" style=""></i>
     </div>
     <div class="quadrant" id="ne-quad">
-      <i class="fa fa-door-open portal-n" style=""></i>
     </div>
     <div class="quadrant" id="sw-quad">
-      <i class="fa fa-door-open portal-e" style=""></i>
     </div>
     <div class="quadrant" id="se-quad">
-      <i class="fa fa-door-open portal-s" style=""></i>
     </div>
   </div>
+  <div>
 
+  <div class="flex-row flex-center">
   <div class="relshell">
+    <i class="fa fa-door-open portal-w" style=""></i>
+    <i class="fa fa-door-open portal-n" style=""></i>
+    <i class="fa fa-door-open portal-e" style=""></i>
+    <i class="fa fa-door-open portal-s" style=""></i>
     <div class="chambershell" >
       <div class="chamber-wrapper flex-row flex-center">
 
@@ -52,9 +54,9 @@
       </div>
     </div>
   </div>
+  </div>
 
-
-  <div class="console flex-row flex-center">
+  <div class="console flex-row flex-center" id="nav-console" >
 
     <div class="console-option" id="left-option">
     </div>
@@ -62,7 +64,7 @@
     <div id="direction-nav" class="nav-container">
       <div class="nav-row flex-row flex-center">
         <div class="nav" id="navblank-nw"></div>
-        <div class="nav" >
+        <div class="nav">
           <i id="up" class="fa fa-arrow-circle-up" style="font-size:36px"></i>
         </div>
         <div class="nav" id="navblank-ne"></div>
@@ -90,20 +92,22 @@
     <div class="console-option" id="right-option">
     </div>
 
-  </div>
+  </div><!-- nav console -->
+
 
   <script type="application/javascript" src="lib/alphabeta.js"></script>
   <script type="application/javascript" src="lib/schema.js"></script>
 
   <!-- mapper : requires schema->schema -->
   <script type="application/javascript" src="lib/mapper.js"></script>
-
+  <script type="application/javascript" src="lib/encounters.js"></script>
   <script type="application/javascript" src="lib/scheme.js"></script>
 
-  <!-- exports -->
+  <!-- exports icons, tiles-->
   <script type="application/javascript" src="lib/dom-helper.js"></script>
 
   <!-- navigator-: requires mapper & dom-helper->icons -->
+  <!-- exports app, active_map, active_stanza, active_glyph, active_encounter-->
   <script type="application/javascript" src="lib/navigator.js"></script>
 
   <!-- window.eventListener : requires navigator->active_glyph -->
