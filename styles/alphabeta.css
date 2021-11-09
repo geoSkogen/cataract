@@ -187,14 +187,8 @@ body {
 
 }
 
-#full-console-wrapper {
-  width: 1700px;
-  border: 1px solid red;
-}
-
 #nav-console {
-  max-width: 900px;
-  min-width: 900px;
+
   margin: 0 1em 0 1em;
   padding: 0.5em 0 0.5em 0;
   background-color: #494949;
@@ -208,18 +202,6 @@ body {
 
 }
 
-#encounter-console {
-  max-width: 420px;
-  min-width: 420px;
-  background-color: red;
-}
-
-#terrain-console {
-  max-width: 300px;
-  min-width: 300px;
-  background-color: yellow;
-}
-
 .nav {
   height: 36px;
   width: 36px;
@@ -227,10 +209,6 @@ body {
   //border: 1px solid red;
 }
 
-#encounter-image {
-  position: absolute;
-  right: -450px;
-  top: -620px;
-  width: 420px;
-  height: 600px;
+.modal {
+  display: none;
 }
