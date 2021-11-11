@@ -216,17 +216,17 @@ body {
   width: 36px;
   padding: 2px;
   //border: 1px solid red;
+  cursor: pointer;
 }
 
 .modal {
-  //display: none;
+  display: none;
   position: absolute;
   z-index: 9000;
   background-color: #333333;
   padding: 0.5em 2em 3em 2em;
   margin: 1em;
   left: 4em;
-  display: none;
 }
 
 .close-modal {
@@ -234,6 +234,13 @@ body {
   font-size: 40px;
   color: white;
   cursor: pointer;
+}
+
+#encounter-headline {
+  font-size: 24px;
+  color: gainsboro;
+  text-align: center;
+  padding: 0 0 0.5em 0;
 }
 
 #encounter-graphic-shell {

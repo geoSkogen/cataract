@@ -20,7 +20,16 @@
         </div>
         <div id="encounter-headline"></div>
         <div id="encounter-graphic-shell" class="flex-row flex-center">
-          <img id="encounter-img" src="img/dragon-crop.png" />
+          <img id="encounter-img" src="#" />
+        </div>
+        <div class="relshell-center">
+          <div class="submodal" id="encounter-controls">
+            <div class="flex-row flex-center">
+              <div id="go-button"></div>
+              <div id="status-bars"></div>
+              <div id="options-button"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -91,7 +100,7 @@
           <i id="left" class="fa fa-arrow-circle-left" style="font-size:36px"></i>
         </div>
         <div class="nav" id="nav-c">
-          <i class="fa fa-bullseye" style="font-size:36px"></i>
+          <i id="focus-icon" class="fa fa-bullseye" style="font-size:36px"></i>
         </div>
         <div class="nav" >
           <i id="right" class="fa fa-arrow-circle-right" style="font-size:36px"></i>
@@ -113,23 +122,17 @@
 
   </div><!-- navigator module -->
 
-  <script type="application/javascript" src="lib/alphabeta.js"></script>
   <script type="application/javascript" src="lib/schema.js"></script>
-
   <!-- mapper : requires schema->schema -->
   <!-- exports mapper -->
   <script type="application/javascript" src="lib/mapper.js"></script>
   <script type="application/javascript" src="lib/dominator.js"></script>
   <script type="application/javascript" src="lib/encounters.js"></script>
-  <script type="application/javascript" src="lib/scheme.js"></script>
-
   <!-- exports icons, tiles-->
   <script type="application/javascript" src="lib/dom-helper.js"></script>
-
   <!-- navigator-: requires mapper & dom-helper->icons -->
   <!-- exports app, active_map, active_stanza, active_glyph, active_encounter-->
   <script type="application/javascript" src="lib/navigator.js"></script>
-
   <!-- window.eventListener : requires navigator->active_glyph -->
   <script type="application/javascript" src="lib/key-cmds.js"></script>
 
