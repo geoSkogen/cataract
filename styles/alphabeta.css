@@ -25,9 +25,19 @@
   justify-content: space-between;
 }
 
+.flex-end {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
 body {
   background-color: #404040;
   padding: none;
+}
+
+#navigator {
+  //opacity: 0.05;
 }
 
 .wall {
@@ -188,7 +198,6 @@ body {
 }
 
 #nav-console {
-
   margin: 0 1em 0 1em;
   padding: 0.5em 0 0.5em 0;
   background-color: #494949;
@@ -210,5 +219,28 @@ body {
 }
 
 .modal {
+  //display: none;
+  position: absolute;
+  z-index: 9000;
+  background-color: #333333;
+  padding: 0.5em 2em 3em 2em;
+  margin: 1em;
+  left: 4em;
   display: none;
+}
+
+.close-modal {
+  font-weight: 800;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+#encounter-graphic-shell {
+  padding: 0 2em;
+}
+
+#encounter-img {
+  width: 600px;
+  height: 600px;
 }

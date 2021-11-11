@@ -11,21 +11,23 @@
   </title>
 </head>
 <body>
-<!--
+
   <div class="flex-row flex-center">
     <div class="relshell">
       <div class="modal">
         <div class="flex-row flex-end">
           <div class="close-modal">&times;</div>
-          <div id="encounter-headline"></div>
-          <div id="encounter-graphic-shell">
-            <img id="encounter-img" src="#" />
-          </div>
+        </div>
+        <div id="encounter-headline"></div>
+        <div id="encounter-graphic-shell" class="flex-row flex-center">
+          <img id="encounter-img" src="img/dragon-crop.png" />
         </div>
       </div>
     </div>
   </div>
--->
+
+  <div id="navigator">
+
   <div class="flex-row flex-center">
     <div class="stanza flex-row flex-center">
       <div class="quadrant" id="nw-quad">
@@ -109,12 +111,15 @@
 
   </div><!-- nav console -->
 
+  </div><!-- navigator module -->
 
   <script type="application/javascript" src="lib/alphabeta.js"></script>
   <script type="application/javascript" src="lib/schema.js"></script>
 
   <!-- mapper : requires schema->schema -->
+  <!-- exports mapper -->
   <script type="application/javascript" src="lib/mapper.js"></script>
+  <script type="application/javascript" src="lib/dominator.js"></script>
   <script type="application/javascript" src="lib/encounters.js"></script>
   <script type="application/javascript" src="lib/scheme.js"></script>
 
