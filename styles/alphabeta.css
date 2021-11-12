@@ -224,16 +224,20 @@ body {
   position: absolute;
   z-index: 9000;
   background-color: #333333;
-  padding: 0.5em 2em 3em 2em;
+  padding: 0 2em 3em 2em;
   margin: 1em;
   left: 4em;
 }
 
 .close-modal {
   font-weight: 800;
-  font-size: 40px;
+  font-size: 20px;
   color: white;
   cursor: pointer;
+}
+
+.modal-title {
+  margin: 0 0.5em;
 }
 
 #encounter-headline {
