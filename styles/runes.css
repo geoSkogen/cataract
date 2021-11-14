@@ -1,0 +1,110 @@
+
+.flex-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.tenkey-row {
+  min-width: 500px;
+}
+
+.cunieform {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  max-width: 200px;
+  margin: 0.75em 0.25em;
+  cursor: pointer;
+}
+
+.relshell {
+  position: relative;
+}
+
+#screen-shell {
+  height: 6px;
+  width: 100%;
+}
+
+.dig {
+  position: absolute;
+  color: white;
+  background-color: red;
+  padding: 0.33em;
+  font-weight: 800;
+  font-family: courier;
+  opacity: 0;
+  font-size: 28px;
+  letter-spacing: 2px;
+  top: 0.5em;
+  right: -2em;
+  border-radius: 100%;
+}
+
+
+.cunieform img {
+  border-radius: 6px;
+}
+
+#tenkey-wrapper {
+  width: 600px;
+}
+
+#tenkey-row-two {
+  padding-left: 1.75em;
+}
+
+#tenkey-row-three {
+  padding-left: 2em;
+}
+
+#stone-screen {
+  margin: 0 0 1em 0;
+}
+
+.screen-digit {
+  height: 96px;
+  width: 56px;
+  font-size: 88px;
+  //border: 1px solid red;
+  position: absolute;
+}
+
+#calc-screen-0 {
+  top: -184px;
+  left: 280px;
+}
+
+#calc-screen-1 {
+  top: -184px;
+  left: 360px;
+}
+
+#calc-screen-2 {
+  top: -190px;
+  left: 434px;
+}
+
+#calc-screen-3 {
+  top: -190px;
+  left: 554px;
+}
+
+#calc-screen-4 {
+  top: -196px;
+  left: 616px;
+}
+
+#calc-screen-5 {
+  top: -196px;
+  left: 686px;
+}
