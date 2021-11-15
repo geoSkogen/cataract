@@ -95,14 +95,10 @@ body {
 
 .chamber {
   margin-top: 2.25%;
-  //height: 100%;
-  //width:95%;
   height: 555px;
   width: 855px;
-  //margin-bottom: 27.5px;
   z-index: 3000;
   background-color: #404040;
-  //background: url('../img/moon_fade.jpg');
   background-size: 900px 600px;
   background-blend-mode: saturation;
 }
@@ -187,8 +183,6 @@ body {
 .quadrant {
   width: 50%;
   height: 50%;
-  //background-color: white;
-  //background: url('../img/cobblestone-road_fade.jpg');
   background-size: 450px 300px;
   background-blend-mode: color:
 }
@@ -251,7 +245,53 @@ body {
   padding: 0 2em;
 }
 
+#encounter-controls {
+  padding-top: 0.5em;
+}
+
 #encounter-img {
   width: 600px;
   height: 600px;
+}
+
+#go-button, #options-button {
+  background-color: lightsteelblue;
+  padding: 0.5em 1em;
+  margin: 0.5em 0.5em;
+  border-radius: 6px;
+  max-height: 1em;
+}
+
+.lifebar {
+  width: 240px;
+  height: 20px;
+  background-color: whitesmoke;
+  margin: 0.25em;
+}
+
+.lifebar-interior {
+  height: 20px;
+  width: 88%;
+}
+
+.barlabel {
+  padding: 0.15em;
+  max-width: 60px;
+  min-width: 60px;
+}
+
+.lifebar-interior#your-life {
+  background-color: olivedrab;
+}
+
+.lifebar-interior#their-life {
+  background-color: tomato;
+}
+
+.lifebar-wrapper {
+}
+
+.submodal {
+  color: white;
+  font-size: 24px;
 }
